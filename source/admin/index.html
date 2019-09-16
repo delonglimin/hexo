@@ -67,6 +67,7 @@ gio('send');
         { "描述": "从开始至load总耗时", "时间(ms)": loadTime }
     ];
     console.table(allTimes);
+    gio('track', 'loadTime', loadTime);
 }
 window.onload = times;
         </script>
