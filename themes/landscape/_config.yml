@@ -25,11 +25,11 @@ index_widgets:
 
 # widget behavior
 archive_type: 'monthly'
-show_count: false
+show_count: true
 
 # Miscellaneous
 google_analytics:
-gauges_analytics:
+gauges_analytics: 5d91cc6baba8334d7cc93798
 favicon: /favicon.png
 twitter:
 google_plus:
