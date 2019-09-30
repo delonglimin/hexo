@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 墨落说情感
 subtitle:
-description:
-keywords:
-author: John Doe
+description: 墨落说情感-分享身边最平凡的小事儿，领略生活的智慧，达到生命的彼岸
+keywords: 墨落说情感 墨落 墨落文化
+author: 墨落
 language:
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://xudelong.top
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
