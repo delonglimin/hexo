@@ -1,18 +1,14 @@
 <% if (theme.gauges_analytics){ %>
 <!-- Gaug.es Analytics -->
-<script type="text/javascript">
-  var _gauges = _gauges || [];
-  (function() {
-    var t   = document.createElement('script');
-    t.type  = 'text/javascript';
-    t.async = true;
-    t.id    = 'gauges-tracker';
-    t.setAttribute('data-site-id', '<%= theme.gauges_analytics %>');
-    t.setAttribute('data-track-path', 'https://track.gaug.es/track.gif');
-    t.src = 'https://d36ee2fcip1434.cloudfront.net/track.js';
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(t, s);
-  })();
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?0a021af6c8853392504ff2dbc1a8c503";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
 </script>
+
 <!-- End Gaug.es Analytics -->
 <% } %>
